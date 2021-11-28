@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="password" value="098765"/>
+    <parameter name="username" value="parthas"/>
+    <classes>
+      <class name="org.login.Parameters">
+        <methods>
+          <include name="tc02"/>
+          <include name="tco1"/>
+        </methods>
+      </class> <!-- org.login.Parameters -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
